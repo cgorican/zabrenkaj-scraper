@@ -1,0 +1,26 @@
+{
+  "name": "zabrenkaj_scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Crt Gorican",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "inquirer": "^9.1.0",
+    "pkg": "^5.8.0"
+  },
+  "type": "module",
+  "pkg": {
+    "targets": [
+      "node16-linux-x64",
+      "node16-win-x64"
+    ]
+  }
+}
