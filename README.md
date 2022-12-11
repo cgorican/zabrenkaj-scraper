@@ -3,7 +3,7 @@ Easy to use CLI application for scraping song tabs from [zabrenkaj.si](https://z
 ![Screenshot initial screen](./downloads/../img/screenshot_1.png)
 
 ## Set up
-*It is expected you already have [NodeJS](https://nodejs.org/en/) installed*<br/>
+*It is expected to have [NodeJS](https://nodejs.org/en/) installed*<br/>
 You can either run the install dependencies command yourself or run the "*start.bat*" script.
 ```
 npm install
