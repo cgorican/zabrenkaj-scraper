@@ -36,7 +36,7 @@ async function scrapePage(scrapeURL) {
                 console.log(chalk.red("Bad request!"));
         });
     if(res === undefined) {
-        console.log(chalk.cyan("Try another link!"));
+        console.log(chalk.cyan("Try another URL!"));
         await sleep(1500);
         return false;
     }
